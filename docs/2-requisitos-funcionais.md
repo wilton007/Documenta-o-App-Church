@@ -1,7 +1,7 @@
 ## Autenticação
 
 * RF01 - O sistema deve permitir que o pastor (sub-admin) realize o cadastro de usuários.
-* RF02 - O sistema deve permitir login utilizando nome do membro e senha sera data de nascimento.
+* RF02 - O sistema deve permitir que o membro realize login utilizando seu nickname e sua data de nascimento.
 * RF03 - O sistema deve manter a sessão do usuário até que ele faça logout.
 * RF04 - O sistema deve permitir que o usuário edite seus dados cadastrais.
 
