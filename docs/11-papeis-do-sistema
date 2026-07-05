@@ -1,0 +1,72 @@
+## 👑 Master
+
+Responsabilidades:
+* Gerenciar administradores.
+* Gerenciar sub-administradores.
+* Gerenciar membros.
+* Ativar e desativar qualquer usuário.
+* Alterar permissões.
+* Gerenciar todo o conteúdo do sistema.
+* Acessar todas as funcionalidades.
+
+
+## 🛡️ Administrador
+Responsável pela administração da igreja.
+
+Permissôes:
+* Cadastrar membros.
+* Editar dados dos membros.
+* Ativar e desativar membros.
+* Publicar, editar e excluir avisos.
+* Cadastrar, editar e excluir eventos da agenda.
+* Editar o cronograma semanal.
+* Excluir pedidos de oração.
+* Excluir palavras do dia.
+* Visualizar todas as informações do sistema.
+
+
+## 📋 Líder
+Perfil destinado a líderes, secretários ou pessoas que ajudam na organização.
+
+Permissões:
+* Publicar avisos.
+* Editar os próprios avisos.
+* Cadastrar eventos.
+* Editar os próprios eventos.
+* Visualizar pedidos de oração.
+* Visualizar palavras do dia.
+
+
+## 👤 Membro
+Usuário comum da igreja.
+
+Permissões:
+* Visualizar avisos.
+* Visualizar agenda.
+* Visualizar cronograma.
+* Ler a Bíblia.
+* Ler a Harpa Cristã.
+* Publicar uma Palavra do Dia.
+* Editar ou excluir a própria Palavra do Dia.
+* Criar pedidos de oração.
+* Editar ou excluir os próprios pedidos de oração.
+* Editar o próprio perfil.
+
+
+
+| Funcionalidade            | Admin Master | Admin |      Sub-Admin     |       Membro      |
+| ------------------------- | :----------: | :---: | :----------------: | :---------------: |
+| Gerenciar administradores |       ✅      |   ❌   |          ❌         |         ❌         |
+| Cadastrar membros         |       ✅      |   ✅   |          ❌         |         ❌         |
+| Ativar/desativar membros  |       ✅      |   ✅   |          ❌         |         ❌         |
+| Publicar avisos           |       ✅      |   ✅   |          ✅         |         ❌         |
+| Gerenciar avisos          |       ✅      |   ✅   | Apenas os próprios |         ❌         |
+| Agendar eventos           |       ✅      |   ✅   |          ✅         |         ❌         |
+| Gerenciar agenda          |       ✅      |   ✅   | Apenas os próprios |         ❌         |
+| Publicar Palavra do Dia   |       ✅      |   ✅   |          ✅         |         ✅         |
+| Excluir Palavra do Dia    |       ✅      |   ✅   |          ❌         | Apenas a própria* |
+| Criar pedido de oração    |       ✅      |   ✅   |          ✅         |         ✅         |
+| Excluir pedido de oração  |       ✅      |   ✅   |          ❌         | Apenas o próprio* |
+| Bíblia                    |       ✅      |   ✅   |          ✅         |         ✅         |
+| Harpa Cristã              |       ✅      |   ✅   |          ✅         |         ✅         |
+| Cronograma                |       ✅      |   ✅   |     Visualizar     |     Visualizar    |
